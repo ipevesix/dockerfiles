@@ -21,7 +21,7 @@ RUN set -ex && \
     ./configure --prefix=/usr \
                 --sysconfdir=/etc/pureftpd \
                 --without-humor \
-				--with-language=french \
+                --with-language=french \
                 --with-minimal \
                 --with-throttling \
                 --with-puredb \
