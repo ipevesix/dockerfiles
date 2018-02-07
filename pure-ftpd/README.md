@@ -31,7 +31,7 @@
 #### Compose example:
 
     pure-ftpd:
-      image: gists/pure-ftpd
+      image: ipevesix/pure-ftpd
       container_name: pure-ftpd
       ports:
         - "21:21"
