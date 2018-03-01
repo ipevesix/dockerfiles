@@ -22,7 +22,7 @@ RUN set -ex && \
                 --sysconfdir=/etc/pureftpd \
                 --without-humor \
                 --with-language=french \
-                --with-minimal \
+                --with-virtualchroot \
                 --with-throttling \
                 --with-puredb \
                 --with-rfc2640 \
