@@ -1,7 +1,7 @@
-FROM alpine:3.7
+FROM alpine:3.11
 MAINTAINER ipevesix
 
-ARG PUREFTPD_VERSION=1.0.47
+ARG PUREFTPD_VERSION=1.0.49
 ARG URL=http://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-$PUREFTPD_VERSION.tar.gz
 
 ENV PUBLIC_HOST         localhost
